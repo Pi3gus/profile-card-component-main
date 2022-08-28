@@ -28,9 +28,10 @@ body{
     background-color: var(--White);
     overflow: hidden;
 }
-.patern img{
-    display: block;
-    width: 100%;
+.patern{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    background-size: cover;
 }
 .content{
     text-align: center; 
