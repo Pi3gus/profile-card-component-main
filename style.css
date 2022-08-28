@@ -14,6 +14,7 @@
 body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--Dark-cyan);
+    color: var(--Very-dark-desaturated-blue);
     width: 1440px;
     margin: 0 auto;
 }
@@ -23,17 +24,57 @@ body{
     height: 100vh;
 }
 .card{
-    border-radius: 9px;
-    
+    border-radius:  12px;
+    background-color: var(--White);
+    overflow: hidden;
 }
 .patern img{
     display: block;
+    width: 100%;
 }
 .content{
-    background-color: var(--White);
     text-align: center; 
+}
+.picture{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    margin: -50px auto 30px auto;
+    border: 5px solid var(--White);
+}
+.picture img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.content h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1.4em;
+}
+.content span{
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+}
+.content h3{
+    font-weight: 400;
+    color: var(--Dark-gray);
+    font-size: 1rem;
+    margin-top: 0.3em;
 }
 .stats{
     display: flex;
     justify-content: space-evenly;
+    border-top: 1px solid hsl(0, 3%, 87%);
+    margin-top: 3em;
+    padding: 1.5em;
+}
+.item h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.item h5{
+    font-weight: 400;
+    color: var(--Dark-gray);
 }
